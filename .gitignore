@@ -1,0 +1,12 @@
+# ==========================
+# Node Modules
+# ==========================
+backend/node_modules/
+frontend/node_modules/
+
+# ==========================
+# Environment Files
+# ==========================
+backend/.env
+frontend/.env
+
