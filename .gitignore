@@ -10,3 +10,7 @@ frontend/node_modules/
 backend/.env
 frontend/.env
 
+contact-manager-app-501210-400fd5ce4783.json
+.terraform/
+*.tfstate
+*.tfstate.backup
