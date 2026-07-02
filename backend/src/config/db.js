@@ -9,6 +9,7 @@ const pool = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
 });
+const JWT_SECRET = process.env.JWT_SECRET;
 
 const initDB = async () => {
   const conn = await pool.getConnection();
